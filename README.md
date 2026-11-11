@@ -34,7 +34,7 @@ relative to the price, so a $20 000 error on a cheap house counts more than on a
 The models cut the error of the constant baseline by about 3.7 times and of the best simple rule
 by about half.
 
-Kaggle public leaderboard: …
+Kaggle public leaderboard: 
 
 ## Repository
 - notebooks/01_eda_baseline.ipynb: data description, EDA,
