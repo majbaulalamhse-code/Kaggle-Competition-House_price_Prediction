@@ -45,13 +45,17 @@ broke SVR for houses with a pool (0.1217); with the fixed rule SVR scores 0.1103
 leakage-free validation the stacking blend reaches 0.1058. Total-area features (TotalSF, TotalBath,
 TotalPorchSF) are the most useful engineered features.
 
-Kaggle public leaderboard: …
+**Kaggle leaderboard:** 0.12200 (`submission_v2.csv`, stacking blend; earlier `submission.csv`: 0.12232).
+The leaderboard score is higher than the CV score (0.1063) because the CV estimate is slightly optimistic:
+the blend weights were chosen on the same training data, and the two outliers removed from training may have
+similar cases in the test set.
 
 ## Repository
 - `01_eda_baseline.ipynb`: data description, EDA, missing values, outliers, baseline
 - `03_validation_features.ipynb`: leakage-free validation, effect of the engineered features, comparison of all models
 - `House_Price_2.ipynb`: preprocessing, feature engineering, models, tuning, stacking, submission
 - `requirements.txt`: Python packages
+- `kaggle_submissions_house_prices.png`: screenshot of the Kaggle submissions and scores
 
 ## References
 Preprocessing and model settings in `House_Price_2.ipynb` are based on the public Kaggle notebook
