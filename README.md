@@ -15,8 +15,8 @@ relative to the price, so a $20 000 error on a cheap house counts more than on a
 | member | role |
 |---|---|
 | Majba ull Alam Akash | preprocessing, feature engineering, models, tuning of Lasso/SVR/KernelRidge, stacking blend (`House_Price_2.ipynb`), Kaggle submission |
-| Kofi Opoku Ayim | data description, EDA, missing values, outliers, baseline (`notebooks/01_eda_baseline.ipynb`); README |
-| Omisore Omolola Bimpe | leakage-free validation, effect of the engineered features, model comparison (`notebooks/03_validation_features.ipynb`) |
+| Kofi Opoku Ayim | data description, EDA, missing values, outliers, baseline (`01_eda_baseline.ipynb`); README |
+| Omisore Omolola Bimpe | leakage-free validation, effect of the engineered features, model comparison (`03_validation_features.ipynb`) |
 
 ## Results (5-fold CV, RMSE on log price)
 | model | CV RMSE |
@@ -48,8 +48,8 @@ TotalPorchSF) are the most useful engineered features.
 Kaggle public leaderboard: …
 
 ## Repository
-- `notebooks/01_eda_baseline.ipynb`: data description, EDA, missing values, outliers, baseline
-- `notebooks/03_validation_features.ipynb`: leakage-free validation, effect of the engineered features, comparison of all models
+- `01_eda_baseline.ipynb`: data description, EDA, missing values, outliers, baseline
+- `03_validation_features.ipynb`: leakage-free validation, effect of the engineered features, comparison of all models
 - `House_Price_2.ipynb`: preprocessing, feature engineering, models, tuning, stacking, submission
 - `requirements.txt`: Python packages
 
